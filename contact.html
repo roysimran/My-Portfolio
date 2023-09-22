@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+    <link rel="stylesheet " href="style2.css">
+    <title>Login form</title>
+</head>
+
+<body>
+
+    <!--NAVIGATION BAR STARTED-->
+
+    <nav class="navbar">
+        <img src="https://www.simraninternational.com/images/logo.png" height="48px" alt="Simran Logo" />
+        <div class="nav-container">
+            <ul class="nav justify-content-end  ">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./index.html" aria-current="page">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./resume.html">RESUME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="./project.html">PROJECTS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="./contact.html" onclick="contact()">CONTACT</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--NAVIGATION BAR ENDED-->
+
+    <!--CONTACT US STARTED-->
+
+    <div class="contact_us">
+
+        <div class="about_us">
+            <h2>We are at</h2>
+            <p>DG Digital | 145, B R House
+                Patliputra Colony, Patna, Bihar (IND)</p>
+        </div>
+
+        <!--CONTACT FORM STARTED-->
+
+        <form class="form" id="contact_form" method="post"><br>
+            <input type="text" id="name" name="name" placeholder=" Name"><br><br>
+            <input type="text" id="address" name="address" placeholder="Address"></br>
+            <br>
+            <input type="number" id="mnumber" name="mnumber" placeholder="Mobile No."></br>
+            <br>
+            <input type="email" id="mailid" name="mailid" placeholder="E-mail Address"></br> <br>
+            <input type="submit" value="Submit" />
+        </form>
+
+        <!--CONTACT FORM ENDED-->
+    </div>
+
+    <!--CONTACT US ENDED-->
+
+    <!--FOOTER SECTION SECTION STARTED-->
+
+    <footer class="footergrad">
+        <hr>
+        <div class="section">
+            <h5>CALL</h5>
+            <ul>
+                <li class="test"> 7091452525</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <H5>WRITE</H5>
+            <ul>
+                <li class="test">
+                    <a href="mailto:roysimran2003@gmail.com">roysimran2003@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <H5>FOLLOW</H5>
+            <ul>
+                <li class="test">
+                    <i class="fab fa-hackerrank"></i>
+                    <a href="https://www.linkedin.com/in/simran-roy-206b2325b"><i class="fab fa-linkedin"></i></a>
+                    <a href="http://github.com/Simranroy2003"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/_simran.18_"> <i class="fab fa-instagram"></i> </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <!--FOOTER SECTION ENDED-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="./contact.js"></script>
+</body>
+
+</html>
